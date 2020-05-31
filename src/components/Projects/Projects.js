@@ -12,7 +12,7 @@ const Projects = () => {
                 <ReactBootStrap.Row style={{ textAlign: 'center', margin: '1% 1%' }}>
                     <ReactBootStrap.Col md={4} sm={12}>
                         <ReactBootStrap.Card style={{ width: '80%' }}>
-                            <ReactBootStrap.Card.Img variant="top" src="../images/fdf.gif" className="img-responsive" style={{ height: '12vw' }} />
+                            <ReactBootStrap.Card.Img variant="top" src=".../images/fdf.gif" className="img-responsive" style={{ height: '12vw' }} />
                             <ReactBootStrap.Card.Body>
                                 <ReactBootStrap.Card.Title>FDF</ReactBootStrap.Card.Title>
                                 <ReactBootStrap.Card.Text>
