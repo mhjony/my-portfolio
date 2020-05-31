@@ -1,0 +1,13 @@
+.social ul{
+    list-style-type: none;
+    text-align: left;
+}
+
+.social li {
+    display: inline;
+    margin: 2%;
+}
+
+.social{
+    margin: 0%;
+}

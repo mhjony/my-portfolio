@@ -1,0 +1,30 @@
+img{
+    height: 15vw;
+}
+
+p{
+    font-weight: 400;
+    font-size: .85rem;
+    font-family: "Roboto Mono", sans-serif;
+    text-align: justify;
+}
+
+.font-custom{
+    font-size: .7rem;
+}
+
+.docker-font-custom{
+    font-size: .75rem;
+}
+
+.project-heading{
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.6rem;
+    font-family: 'Times New Roman', Times, serif
+}
+
+
+
+
+
