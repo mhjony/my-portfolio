@@ -25,7 +25,7 @@ const Projects = () => {
                     </ReactBootStrap.Col >
                     <ReactBootStrap.Col md={4} sm={12}>
                         <ReactBootStrap.Card style={{ width: '80%' }}>
-                            <ReactBootStrap.Card.Img variant="top" src="/images/docker.gif" className="img-responsive" style={{ height: '12vw' }} />
+                            <ReactBootStrap.Card.Img variant="top" src="../../public/images/docker.gif" className="img-responsive" style={{ height: '12vw' }} />
                             <ReactBootStrap.Card.Body>
                                 <ReactBootStrap.Card.Title style={{ fontSize: '1.6rem' }}>Docker</ReactBootStrap.Card.Title>
                                 <ReactBootStrap.Card.Text>
