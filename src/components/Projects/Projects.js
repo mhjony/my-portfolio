@@ -12,7 +12,7 @@ const Projects = () => {
                 <ReactBootStrap.Row style={{ textAlign: 'center', margin: '1% 1%' }}>
                     <ReactBootStrap.Col md={4} sm={12}>
                         <ReactBootStrap.Card style={{ width: '80%' }}>
-                            <ReactBootStrap.Card.Img variant="top" src="/img/fdf.gif" className="img-responsive" style={{ height: '12vw' }} />
+                            <ReactBootStrap.Card.Img variant="top" src={process.env.PUBLIC_URL + '/images/fdf.gif'} className="img-responsive" style={{ height: '12vw' }} />
                             <ReactBootStrap.Card.Body>
                                 <ReactBootStrap.Card.Title>FDF</ReactBootStrap.Card.Title>
                                 <ReactBootStrap.Card.Text>
@@ -25,7 +25,7 @@ const Projects = () => {
                     </ReactBootStrap.Col >
                     <ReactBootStrap.Col md={4} sm={12}>
                         <ReactBootStrap.Card style={{ width: '80%' }}>
-                            <ReactBootStrap.Card.Img variant="top" src="/public/images/docker.gif" className="img-responsive" style={{ height: '12vw' }} />
+                            <ReactBootStrap.Card.Img variant="top" src={process.env.PUBLIC_URL + '/images/docker.gif'} className="img-responsive" style={{ height: '12vw' }} />
                             <ReactBootStrap.Card.Body>
                                 <ReactBootStrap.Card.Title style={{ fontSize: '1.6rem' }}>Docker</ReactBootStrap.Card.Title>
                                 <ReactBootStrap.Card.Text>
@@ -38,7 +38,7 @@ const Projects = () => {
                     </ReactBootStrap.Col >
                     <ReactBootStrap.Col md={4} sm={12}>
                         <ReactBootStrap.Card style={{ width: '80%' }}>
-                            <ReactBootStrap.Card.Img variant="top" src="/images/TD2.gif" className="img-responsive" style={{ height: '12vw' }} />
+                            <ReactBootStrap.Card.Img variant="top" src={process.env.PUBLIC_URL + '/images/TD2.gif'} className="img-responsive" style={{ height: '12vw' }} />
                             <ReactBootStrap.Card.Body>
                                 <ReactBootStrap.Card.Title>Fillit</ReactBootStrap.Card.Title>
                                 <ReactBootStrap.Card.Text>
@@ -55,7 +55,7 @@ const Projects = () => {
                 <ReactBootStrap.Row style={{ textAlign: 'center', margin: '1% 1%' }}>
                     <ReactBootStrap.Col sm={4}>
                         <ReactBootStrap.Card style={{ width: '80%' }}>
-                            <ReactBootStrap.Card.Img variant="top" src="/images/libft.gif" className="img-responsive" style={{ height: '12vw' }} />
+                            <ReactBootStrap.Card.Img variant="top" src={process.env.PUBLIC_URL + '/images/libft.gif'} className="img-responsive" style={{ height: '12vw' }} />
                             <ReactBootStrap.Card.Body>
                                 <ReactBootStrap.Card.Title>Libft</ReactBootStrap.Card.Title>
                                 <ReactBootStrap.Card.Text>
@@ -69,7 +69,7 @@ const Projects = () => {
                     </ReactBootStrap.Col>
                     <ReactBootStrap.Col sm={4}>
                         <ReactBootStrap.Card style={{ width: '80%' }}>
-                            <ReactBootStrap.Card.Img variant="top" src="/images/census.gif" className="img-responsive" style={{ height: '12vw' }} />
+                            <ReactBootStrap.Card.Img variant="top" src={process.env.PUBLIC_URL + '/images/census.gif'} className="img-responsive" style={{ height: '12vw' }} />
                             <ReactBootStrap.Card.Body>
                                 <ReactBootStrap.Card.Title>Census</ReactBootStrap.Card.Title>
                                 <ReactBootStrap.Card.Text>
@@ -82,7 +82,7 @@ const Projects = () => {
                     </ReactBootStrap.Col>
                     <ReactBootStrap.Col sm={4}>
                         <ReactBootStrap.Card style={{ width: '80%' }}>
-                            <ReactBootStrap.Card.Img variant="top" src="/images/campusQuiz.jpeg" className="img-responsive" style={{ height: '12vw' }} />
+                            <ReactBootStrap.Card.Img variant="top" src={process.env.PUBLIC_URL + '/images/campusQuiz.jpeg'} className="img-responsive" style={{ height: '12vw' }} />
                             <ReactBootStrap.Card.Body>
                                 <ReactBootStrap.Card.Title>Campus Quiz</ReactBootStrap.Card.Title>
                                 <ReactBootStrap.Card.Text>

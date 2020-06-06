@@ -9,9 +9,9 @@ const Contact = () => {
                 <ReactBootstrap.Row>
                     <ReactBootstrap.Col className="social">
                         <ul style={{ textAlign: 'left' }}>
-                            <li><ReactBootstrap.Image style={{ width: '4%', height: '4%' }} src="/images/linkedin.png" /></li>
-                            <li><ReactBootstrap.Image style={{ width: '4%', height: '4%' }} src="/images/twitter.png" /></li>
-                            <li><ReactBootstrap.Image style={{ width: '4%', height: '4%' }} src="/images/instagram.png" /></li>
+                            <li><ReactBootstrap.Image style={{ width: '4%', height: '4%' }} src={process.env.PUBLIC_URL + '/images/linkedin.png'} /></li>
+                            <li><ReactBootstrap.Image style={{ width: '4%', height: '4%' }} src={process.env.PUBLIC_URL + '/images/twitter.png'} /></li>
+                            <li><ReactBootstrap.Image style={{ width: '4%', height: '4%' }} src={process.env.PUBLIC_URL + '/images/instagram.png'} /></li>
                         </ul>
                     </ReactBootstrap.Col>
                     <ReactBootstrap.Col>

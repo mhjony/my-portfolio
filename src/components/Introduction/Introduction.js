@@ -12,7 +12,7 @@ const Introduction = () => {
                         we also value teamwork and colloaboration.</h5>
                     </ReactBootStrap.Col>
                     <ReactBootStrap.Col sm={6}>
-                        <ReactBootStrap.Image src="/images/introduction.jpeg" rounded />
+                        <ReactBootStrap.Image src={process.env.PUBLIC_URL + '/images/introduction.jpeg'} rounded />
                     </ReactBootStrap.Col>
                 </ReactBootStrap.Row>
             </ReactBootStrap.Container>

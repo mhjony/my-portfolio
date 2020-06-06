@@ -14,8 +14,8 @@ function App() {
       <Menu />
       <Header />
       <Introduction />
-      <Projects />
       <Technology />
+      <Projects />
       <Contact />
     </div>
   );

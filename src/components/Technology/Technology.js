@@ -8,7 +8,7 @@ const Technology = () => {
             <ReactBootstrap.Container>
                 <ReactBootstrap.Row>
                     <ReactBootstrap.Col className="colomn">
-                        <ReactBootstrap.Image style={{ width: '50%', height: '30%' }} src="/images/backend.png" className="img-responsible" />
+                        <ReactBootstrap.Image style={{ width: '50%', height: '30%' }} src={process.env.PUBLIC_URL + '/images/backend.png'} className="img-responsible" />
                         <h5>Backend</h5>
                         <ul>
                             <li>C</li>
@@ -17,7 +17,7 @@ const Technology = () => {
                         </ul>
                     </ReactBootstrap.Col>
                     <ReactBootstrap.Col className="colomn">
-                        <ReactBootstrap.Image style={{ width: '50%', height: '30%' }} src="/images/frontend.png" className="img-responsible" />
+                        <ReactBootstrap.Image style={{ width: '50%', height: '30%' }} src={process.env.PUBLIC_URL + '/images/frontend.png'} className="img-responsible" />
                         <h5>Frontend</h5>
                         <ul>
                             <li>ReactJS</li>
@@ -28,7 +28,7 @@ const Technology = () => {
                         </ul>
                     </ReactBootstrap.Col>
                     <ReactBootstrap.Col className="colomn">
-                        <ReactBootstrap.Image style={{ width: '50%', height: '30%' }} src="/images/database.png" className="img-responsible" />
+                        <ReactBootstrap.Image style={{ width: '50%', height: '30%' }} src={process.env.PUBLIC_URL + '/images/database.png'} className="img-responsible" />
                         <h5>Database</h5>
                         <ul>
                             <li>MySql</li>
@@ -37,7 +37,7 @@ const Technology = () => {
                         </ul>
                     </ReactBootstrap.Col>
                     <ReactBootstrap.Col className="colomn">
-                        <ReactBootstrap.Image style={{ width: '50%', height: '30%' }} src="/images/deployment.png" className="img-responsible" />
+                        <ReactBootstrap.Image style={{ width: '50%', height: '30%' }} src={process.env.PUBLIC_URL + '/images/deployment.png'} className="img-responsible" />
                         <h5>Deployment</h5>
                         <ul>
                             <li>Docker</li>
@@ -45,7 +45,7 @@ const Technology = () => {
                         </ul>
                     </ReactBootstrap.Col>
                     <ReactBootstrap.Col className="colomn">
-                        <ReactBootstrap.Image style={{ width: '50%', height: '30%' }} src="/images/processes.jpg" className="img-responsible" />
+                        <ReactBootstrap.Image style={{ width: '50%', height: '30%' }} src={process.env.PUBLIC_URL + '/images/processes.jpg'} className="img-responsible" />
                         <h5>Processes</h5>
                         <ul>
                             <li>Agile</li>

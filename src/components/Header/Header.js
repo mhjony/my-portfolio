@@ -11,7 +11,7 @@ const Header = () => {
                 <ReactBootstrap.Container>
                     <ReactBootstrap.Row>
                         <ReactBootstrap.Col sm={4}>
-                            <ReactBootstrap.Image src="/images/rsz_mahmudul.jpg" roundedCircle />
+                            <ReactBootstrap.Image src={process.env.PUBLIC_URL + '/images/rsz_mahmudul.jpg'} roundedCircle />
                         </ReactBootstrap.Col>
                         <ReactBootstrap.Col sm={8}>
                             <h1 style={{ color: 'white' }}>Mahmudul Hasan</h1>
